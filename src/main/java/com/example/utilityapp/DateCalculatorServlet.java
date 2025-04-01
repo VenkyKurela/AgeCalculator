@@ -32,7 +32,7 @@ public class DateCalculatorServlet extends HttpServlet {
             int months = period.getMonths();
             int days = period.getDays();
 
-            out.println("<html><head><title>Date Calculator Result</title>Result</head><body>");
+            out.println("<html><head><title>Date Calculator Result</title>Age Calculator</head><body>");
             out.println("<h1>You are " + totalDays + " days old.</h1>");
             out.println("<h1>You are " + years+" Years"+ months+" Months"+days+" Days old.</h1>");
             out.println("</body></html>");
@@ -45,4 +45,4 @@ public class DateCalculatorServlet extends HttpServlet {
         }
     }
 }
-
+i
